@@ -1,0 +1,21 @@
+{
+  "name": "LeapTheremin",
+  "version": "0.0.1",
+  "description": "A lab using Leap and Mac Audio to produce annoying sounds",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "leap",
+    "macaudio",
+    "theremin",
+    "noise"
+  ],
+  "author": "Per Ejeklint <ejeklint@me.com> (http://www.ejeklint.se/)",
+  "license": "ISC",
+  "dependencies": {
+    "leapjs": "^0.6.2",
+    "macaudio": "git://github.com/colinbdclark/node-macaudio"
+  }
+}
